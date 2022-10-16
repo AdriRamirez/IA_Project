@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 1838875911}
   - component: {fileID: 1838875915}
   m_Layer: 0
-  m_Name: Car_Hatch
+  m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,6 +354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   agent: {fileID: 1838875911}
+  ghost: {fileID: 0}
 --- !u!1 &6392813734971615694
 GameObject:
   m_ObjectHideFlags: 0
