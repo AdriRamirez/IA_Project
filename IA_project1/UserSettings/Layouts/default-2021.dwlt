@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 991
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 304
     height: 941
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -510,9 +510,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 945c0000
-      m_LastClickedID: 23700
-      m_ExpandedIDs: 36fbffff185c00003a5c0000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -645,7 +645,7 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -763,7 +763,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 48.080666, y: -1.8460083, z: 52.78156}
     speed: 2
-    m_Value: {x: 48.080666, y: -1.8460083, z: 52.78156}
+    m_Value: {x: 0.09113121, y: 0.9769892, z: -0.4488697}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -812,11 +812,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.29353166, y: -0.65282804, z: 0.3047691, w: 0.62864417}
     speed: 2
-    m_Value: {x: 0.29395273, y: -0.65317345, z: 0.30612502, w: 0.62709147}
+    m_Value: {x: 0.2934696, y: -0.65269, z: 0.30470467, w: 0.62851125}
   m_Size:
     m_Target: 32.343098
     speed: 2
-    m_Value: 32.343098
+    m_Value: 2.734456
   m_Ortho:
     m_Target: 0
     speed: 2
