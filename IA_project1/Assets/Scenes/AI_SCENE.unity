@@ -8556,7 +8556,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   beePrefab: {fileID: 1046869630431942, guid: c717f817a496cf247a92b830b355a407, type: 3}
-  numBees: 20
+  numBees: 100
   allBees:
   - {fileID: 0}
   - {fileID: 0}
@@ -8578,10 +8578,90 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  minSpeed: 2.53
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  minSpeed: 1.11
   maxSpeed: 3.48
-  neighbourDistance: 9.34
-  rotationSpeed: 2.38
+  neighbourDistance: 6.49
+  rotationSpeed: 1.35
 --- !u!4 &878925584
 Transform:
   m_ObjectHideFlags: 0
@@ -9577,8 +9657,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.30610812, y: -0.6385863, z: 0.3075044, w: 0.6355678}
-  m_LocalPosition: {x: 86.68239, y: 44.940796, z: 57.048557}
+  m_LocalRotation: {x: 0.2934696, y: -0.65269005, z: 0.30470473, w: 0.6285112}
+  m_LocalPosition: {x: 89.58351, y: 47.745872, z: 54.35067}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19842,6 +19922,8 @@ MonoBehaviour:
   - {fileID: 1018698599}
   - {fileID: 535305298}
   flee_points:
+  - {fileID: 1906597587}
+  - {fileID: 149495960}
   - {fileID: 880707464}
   tl: {fileID: 1914542537}
 --- !u!1001 &6545047311555208871

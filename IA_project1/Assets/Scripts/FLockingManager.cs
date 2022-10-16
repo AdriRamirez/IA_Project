@@ -26,8 +26,9 @@ public class FLockingManager : MonoBehaviour
         allBees = new GameObject[numBees];
         for (int i = 0; i < numBees; ++i)
         {
+
+            Vector3 pos = this.transform.position + new Vector3(Random.Range(-1, 1), Random.Range(-1, 1), Random.Range(-1, 1)); // random position
             Vector3 randomize = new Vector3(Random.Range(-1, 1), Random.Range(-1, 1), Random.Range(-1, 1));// random vector direction
-            Vector3 pos = this.transform.position + randomize; // random position
             allBees[i] = (GameObject)Instantiate(beePrefab, pos, Quaternion.LookRotation(randomize));
             allBees[i].GetComponent<Flock>().myManager = this;
             allBees[i].transform.parent = gameObject.transform;
